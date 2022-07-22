@@ -1,0 +1,11 @@
+main: com.github.AndrewAlbizati.Plugin
+name: DayNightImmersionPlugin
+version: 1.0.0
+description: This plugin is used to synchronize the Minecraft day/night cycle with the real life day/night cycle.
+author: Andrew Albizati
+api-version: 1.18
+
+commands:
+  settimezone:
+    description: Sets the server's timezone.
+    usage: /settimezone <time zone>
